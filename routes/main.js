@@ -7,11 +7,11 @@ router.get('/', (req, res) => {
     res.sendFile(__path + '/docs/home.html')
 })
 
-router.get('/login', (req, res) => {
+router.get('/docs', (req, res) => {
              res.sendFile(__path + '/docs/login.html')
 })
 
-router.get('/login', (req, res) => {
+router.get('/docs', (req, res) => {
              res.sendFile(__path + '/docs/register.html')
 })
 

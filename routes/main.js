@@ -15,8 +15,6 @@ router.get('/login', (req, res) => {
              res.sendFile(__path + '/docs/register.html')
 })
 
-
-
 router.get('/docs', (req, res) => {
 	res.sendFile(__path + '/docs/dashboard.html')
 })
